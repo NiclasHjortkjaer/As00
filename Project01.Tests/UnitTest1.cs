@@ -25,7 +25,7 @@ namespace Project01.Tests
             bool leapYear = Program.IsLeapYear(2100);
 
             //Assert
-            Assert.True(leapYear);
+            Assert.False(leapYear);
         }
 
         [Fact]
